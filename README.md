@@ -1,5 +1,5 @@
 ## C4D Keyframe Breakdowner
-Animation tool for Cinema 4D R23 to easily add inbetween poses.
+Animation tool for Cinema 4D R23 to easily add inbetween poses, helpful for character animation workflows.
 
 Inspired by (but with far less features than) https://github.com/boredstiff/tweenMachine
 
@@ -17,6 +17,7 @@ Download everything then copy the 'keyframebreakdowner' directory to your Cinema
 ### Notes
 * All animated parameters on your current selection will be altered at the same time, there's no option for excluding or selecting certain parameters.
 * Your playhead needs to be between two keyframes for the plugin to do anything, as it interpolates between the values of the two keyframes.
+* Ideally you should work with 'stepped' curves while using Keyframe Breakdowner, then smooth your curves once finished - it will respect the curve type of surrounding keyframes but might not interpolate them nicely in other modes.
 
 ## Licence
 Modified BSD - available in the .pyp file
